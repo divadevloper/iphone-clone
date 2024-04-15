@@ -92,7 +92,6 @@ const result = document.getElementById("passwordinput");
 const display = (number) => {
     result.value += number;
     if (result.value.length == 4) {
-        result.value = result.value
         console.log(result.value.length);
         if (result.value == localStorage.getItem("password")) {
             thepassword.style.display = "none"
